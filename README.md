@@ -17,7 +17,7 @@ touch srl_general.txt
 pip install feedgen
 chmod update.sh 755
 sudo crontab -e
-* * * * * /var/www/html/rss/physics/update.sh
+*/2 * * * * /var/www/html/rss/physics/update.sh
 ```
 
 Warning! `update_notices.py` should be executed prior to `update_general.py`.
