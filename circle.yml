@@ -1,0 +1,10 @@
+machine:
+  python:
+    version: 3.5.2
+test:
+  post:
+    - touch srl_notices.txt
+    - touch srl_general.txt
+    - pip install feedgen
+    - python update_notices.py
+    - python update_general.py
