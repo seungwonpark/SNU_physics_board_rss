@@ -1,0 +1,6 @@
+# Python
+__pycache__/*
+
+# data
+srl_list.txt
+atom.xml
