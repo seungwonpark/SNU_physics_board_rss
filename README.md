@@ -1,4 +1,4 @@
-# 서울대 물리천문학부 [게시판](physics.snu.ac.kr/xe/underbbs) rss
+# 서울대 물리학부 [게시판](physics.snu.ac.kr/xe/underbbs) rss
 # SNU physics [board](physics.snu.ac.kr/xe/underbbs) rss
 
 Source code of [SNU Physics Board RSS](swpark.ddns.net/rss/SNU_physics_board_rss).
