@@ -2,5 +2,7 @@
 __pycache__/*
 
 # data
-srl_list.txt
-atom.xml
+srl_notices.txt
+srl_general.txt
+notices.xml
+general.xml

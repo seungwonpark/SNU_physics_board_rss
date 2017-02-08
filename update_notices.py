@@ -9,10 +9,10 @@ baseurl = 'http://phya.snu.ac.kr/xe/underbbs/'
 url ='http://phya.snu.ac.kr/xe/index.php?mid=underbbs&category=371' # notices only
 
 
-f = open('srl_list.txt','r')
+f = open('srl_notices.txt','r')
 num = f.read().split(',')
 f.close()
-f = open('srl_list.txt','a')
+f = open('srl_notices.txt','a')
 
 response = urllib.request.urlopen(url)
 data = response.read()
@@ -25,7 +25,7 @@ srl_arr = []
 text_splitted = text.split('document_srl=')
 for i in range(1,len(text_splitted)):
 	srl = text_splitted[i].split('">')[0].split('#comment')[0]
-	if(is_number(srl)):
+	if(is_number(srl) and srl not in srl_arr):
 		srl_arr.append(srl)
 		if(srl not in num):
 			count_new += 1
@@ -39,10 +39,10 @@ if(count_new != 0):
 	# make FeedGenerator
 	fg = FeedGenerator()
 	fg.id('asdf')
-	fg.title('RSS Feed of SNU Physics Board - physics.snu.ac.kr')
+	fg.title('SNU Physics Board RSS feed - notices')
 	fg.author({'name':'Seungwon Park','email':'yyyyy@snu.ac.kr'})
 	fg.link(href='asdf')
-	fg.subtitle('SNU Physics Board RSS')
+	fg.subtitle('SNU Physics Board RSS - notices')
 	fg.language('ko')
 	for srl in srl_arr:
 		print('Parsing post #' + srl + '...')
@@ -53,7 +53,7 @@ if(count_new != 0):
 		fe.link(href = baseurl + srl)
 
 	atomfeed = fg.atom_str(pretty=True)
-	fg.atom_file('atom.xml')
+	fg.atom_file('notices.xml')
 	print('Added ' + str(count_new) + ' posts to feed.')
 
 else:

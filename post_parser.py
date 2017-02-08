@@ -13,7 +13,10 @@ def post_author(srl):
 	response = urllib.request.urlopen(post_url)
 	data = response.read()
 	text = data.decode('utf-8')
-	return text.split('author" onclick="return false">')[1].split('</a>')[0]
+	try:
+		return text.split('<p class="meta">')[1].split('<span class="sum">')[0].split('">')[1].split('</a>')[0]
+	except:
+		return text.split('<p class="meta">')[1].split('<span class="sum">')[0].replace('\t','').replace('\n','')
 
 def post_time(srl):
 	post_url = baseurl + srl
