@@ -3,7 +3,7 @@
 
 ![status](https://circleci.com/gh/seungwonpark/SNU_physics_board_rss.svg?style=shield)
 
-Source code of [SNU Physics Board RSS](swpark.ddns.net/rss/SNU_physics_board_rss).
+Source code of [SNU Physics Board RSS](http://swpark.ddns.net/rss/physics).
 
 Based on Python3.
 
