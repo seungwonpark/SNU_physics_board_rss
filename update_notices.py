@@ -25,7 +25,7 @@ srl_arr = []
 text_splitted = text.split('document_srl=')
 for i in range(1,len(text_splitted)):
 	srl = text_splitted[i].split('">')[0].split('#comment')[0]
-	if(is_number(srl) and srl not in srl_arr):
+	if(is_number(srl) and srl not in srl_arr): # second statement : to prevent duplication
 		srl_arr.append(srl)
 		if(srl not in num):
 			count_new += 1

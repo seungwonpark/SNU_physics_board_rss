@@ -30,7 +30,7 @@ text_splitted = text.split('document_srl=')
 for i in range(1,len(text_splitted)):
 	srl = text_splitted[i].split('">')[0].split('#comment')[0]
 	if(is_number(srl)):
-		if(srl not in num_notices and srl not in srl_arr_general):
+		if(srl not in num_notices and srl not in srl_arr_general): # second statement : to prevent duplication
 			srl_arr_general.append(srl)
 			if(srl not in num_general):
 				count_new += 1
