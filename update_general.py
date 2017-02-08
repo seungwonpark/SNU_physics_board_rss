@@ -3,6 +3,8 @@ import urllib.request
 from feedgen.feed import FeedGenerator
 from post_parser import post_title, post_author, post_time, post_files_num
 from misc import is_number
+from datetime import datetime
+from dateutil import tz
 
 # info
 baseurl = 'http://physics.snu.ac.kr/xe/underbbs/'
@@ -49,6 +51,7 @@ if(count_new != 0):
 	fg.link(href='asdf')
 	fg.subtitle('SNU Physics Board RSS - general')
 	fg.language('ko')
+	fg.updated(datetime.now(tz.tzlocal()))
 	for srl in srl_arr_general:
 		print('Parsing post #' + srl + '...')
 		fe = fg.add_entry()
