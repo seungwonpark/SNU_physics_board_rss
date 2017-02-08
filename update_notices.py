@@ -5,8 +5,8 @@ from post_parser import post_title, post_author, post_time, post_files_num
 from misc import is_number
 
 # info
-baseurl = 'http://phya.snu.ac.kr/xe/underbbs/'
-url ='http://phya.snu.ac.kr/xe/index.php?mid=underbbs&category=371' # notices only
+baseurl = 'http://physics.snu.ac.kr/xe/underbbs/'
+url ='http://physics.snu.ac.kr/xe/index.php?mid=underbbs&category=371' # notices only
 
 
 f = open('srl_notices.txt','r')
@@ -49,7 +49,7 @@ if(count_new != 0):
 		fe = fg.add_entry()
 		fe.id(baseurl + srl)
 		fe.title(post_title(srl))
-		fe.author({'name':post_author(srl),'email':'yyyyy@snu.ac.kr'})
+		fe.author({'name':post_author(srl),'email':'unknown'})
 		fe.link(href = baseurl + srl)
 
 	atomfeed = fg.atom_str(pretty=True)

@@ -1,5 +1,5 @@
 import urllib.request
-baseurl = 'http://phya.snu.ac.kr/xe/underbbs/'
+baseurl = 'http://physics.snu.ac.kr/xe/underbbs/'
 
 def post_title(srl):
 	post_url = baseurl + srl
