@@ -2,15 +2,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>SNU Physics Board RSS</title>
+    <title>SNU Physics Board RSS(Beta)</title>
 </head>
 
 <body>
 
 <div align="center">
 
-<h2> 서울대 물리학과 게시판 RSS </h2>
-<h2> SNU Physics Board RSS </h2>
+<h2> 서울대 물리학과 게시판 RSS(베타) </h2>
+<h2> SNU Physics Board RSS(Beta) </h2>
 
 <h3>
 <a href="notices.xml" target="_blank">공지(Notices)</a> <br>
@@ -21,6 +21,12 @@
 Warning : This service can be discontinued any time. <br>
 
 <br>
+
+추가로 구현해야 할 것 : <br>
+게시물 날짜 맞추기, 날짜를 UTC에서 KST로 바꾸기, (게시자 이메일 넣기) <br>
+
+<br>
+
 <small>
 만든이 : 박승원(서울대학교 물리천문학부 물리학전공 17학번) / yyyyy@snu.ac.kr <br>
 Credit : Seungwon Park(SNU Dept. of Physics/Astronomy Physics major, '17) / yyyyy@snu.ac.kr <br>
