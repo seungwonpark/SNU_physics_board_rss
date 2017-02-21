@@ -40,7 +40,7 @@ if(count_new != 0):
 	fg = FeedGenerator()
 	fg.id('asdf')
 	fg.title('SNU Physics Board RSS feed - notices')
-	fg.author({'name':'Seungwon Park','email':'yyyyy@snu.ac.kr'})
+	fg.author({'name':'Seungwon Park','email':'yyyyy at snu dot ac dot kr'})
 	fg.link(href='asdf')
 	fg.subtitle('SNU Physics Board RSS - notices')
 	fg.language('ko')

@@ -28,8 +28,8 @@ Warning : This service can be discontinued any time. <br>
 <br>
 
 <small>
-만든이 : 박승원(서울대학교 물리천문학부 물리학전공 17학번) / yyyyy@snu.ac.kr <br>
-Credit : Seungwon Park(SNU Dept. of Physics/Astronomy Physics major, '17) / yyyyy@snu.ac.kr <br>
+만든이 : 박승원(서울대학교 물리천문학부 물리학전공 17학번) / yyyyy at snu dot ac dot kr <br>
+Credit : Seungwon Park(SNU Dept. of Physics/Astronomy Physics major, '17) / yyyyy at snu dot ac dot kr <br>
 </small>
 <br>
 <a href="https://github.com/seungwonpark/SNU_physics_board_rss">This project on GitHub</a>
