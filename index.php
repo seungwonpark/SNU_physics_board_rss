@@ -12,15 +12,14 @@
 <h2> 서울대 물리학과 게시판 RSS(베타) </h2>
 <h2> SNU Physics Board RSS(Beta) </h2>
 
+<img src="https://circleci.com/gh/seungwonpark/SNU_physics_board_rss.svg?style=shield" alt="CircleCI build status">
+
 <h3>
-<a href="notices.xml" target="_blank">공지(Notices)</a> <br>
-<a href="general.xml" target="_blank">일반(General)</a> <br>
+<a href="notices.xml" target="_blank">공지(Notices)</a> / <a href="general.xml" target="_blank">일반(General)</a> <br>
 </h3>
 
 경고 : 이 서비스는 언제든지 중단될 수 있습니다. <br>
 Warning : This service can be discontinued any time. <br>
-
-<img src="https://circleci.com/gh/seungwonpark/SNU_physics_board_rss.svg?style=shield" alt="CircleCI build status">
 
 <br>
 
