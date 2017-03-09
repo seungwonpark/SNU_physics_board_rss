@@ -15,16 +15,14 @@
 <img src="https://circleci.com/gh/seungwonpark/SNU_physics_board_rss.svg?style=shield" alt="CircleCI build status">
 
 <h3>
-<a href="notices.xml" target="_blank">공지(Notices)</a> / <a href="general.xml" target="_blank">일반(General)</a> <br>
+학사 게시판 : <a href="notices.xml" target="_blank">공지(Notices)</a> / <a href="general.xml" target="_blank">일반(General)</a> <br>
+
+강의 게시판 : <a href="subjects/course_under_spring_.php">학부(Undergrad.)</a> / 
+<a href="subjects/course_grad_spring_.php">석박사과정(Grad.)</a> <br>
 </h3>
 
 경고 : 이 서비스는 언제든지 중단될 수 있습니다. <br>
 Warning : This service can be discontinued any time. <br>
-
-<br>
-
-추가로 구현해야 할 것 : <br>
-게시물 날짜 맞추기, 날짜를 UTC에서 KST로 바꾸기, <s>게시자 이메일 넣기</s>(이메일 무단수집 방지) <br>
 
 <br>
 
