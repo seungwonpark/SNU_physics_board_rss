@@ -41,7 +41,21 @@ subject_list = [
 	'rst',
 	'ps',
 	'ao',
-	'spb'
+	'spb',
+	'idra',
+	'qm',
+	'electro',
+	'cm',
+	'alab',
+	'cmp1',
+	'bnpp',
+	'lp',
+	'ptcp',
+	'qft1',
+	'atap1',
+	'atcmp1',
+	'atfp',
+	'acmp'
 ]
 
 
