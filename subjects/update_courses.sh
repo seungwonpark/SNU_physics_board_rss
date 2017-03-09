@@ -1,2 +1,2 @@
 cd /var/www/html/rss/physics/subjects
-python parse_course.py
+python3 parse_course.py
