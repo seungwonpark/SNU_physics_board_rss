@@ -83,10 +83,10 @@ for s in subject_list:
 
 	fg = FeedGenerator()
 	fg.id(subject)
-	fg.title('SNU Physics Board RSS feed - ' + subject)
+	fg.title(subject + ' - SNU Physics Board RSS feed')
 	fg.author({'name':'Seungwon Park','email':'yyyyy at snu dot ac dot kr'})
 	fg.link(href=subject)
-	fg.subtitle('SNU Physics Board RSS - ' + subject)
+	fg.subtitle(subject + ' - SNU Physics Board RSS feed')
 	fg.language('ko')
 
 
