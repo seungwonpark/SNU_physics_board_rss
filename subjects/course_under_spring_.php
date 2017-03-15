@@ -8,7 +8,8 @@
 	a{color:#656565; text-decoration:none; line-height:15px;}
 	
 	table{
-	border-collapse : collapse; border:1px;
+		border-collapse : collapse;
+		border:1px;
 	}
   </style>
 </head>
@@ -21,7 +22,7 @@
 
 <!--1-->
 		<tr><td>
-		<table cellpadding=2 cellspacing=1>
+		<table cellpadding=2 cellspacing=1 bgcolor="#FFDFDF">
                 <tr height=160>
                 <td align=left width=130><img src=img/1year.png></td>
                 <td align=center width=225>
@@ -122,7 +123,7 @@
 
 <!--1-->
 		<tr><td>
-		<table cellpadding=2 cellspacing=1>
+		<table cellpadding=2 cellspacing=1 bgcolor="#DFFFDF">
                 <tr height=160>
                 <td align=left width=130><img src=img/1year.png></td>
                 <td align=center width=225>
@@ -223,7 +224,7 @@
 <!--1-->
 
 		<tr><td>
-		<table cellpadding=2 cellspacing=1>
+		<table cellpadding=2 cellspacing=1 bgcolor="#DFDFFF">
                 <tr height=160>
                 <td align=left width=130><img src=img/1year.png></td>
                 <td align=center width=225>

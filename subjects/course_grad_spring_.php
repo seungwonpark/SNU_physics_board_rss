@@ -20,7 +20,7 @@
 
 		<tr>
 		<td>
-		<table border=0>
+		<table border=0 bgcolor="#FFDFDF">
         <tr height=0>
         <tr height=1 bgcolor=50b4cf><td colspan=4 width=900></td></tr>
 		<tr height=2 bgcolor=80a0d7><td colspan=4 width=900></td></tr>
@@ -67,7 +67,7 @@
 
 		<tr>
 		<td>
-		<table border=0>
+		<table border=0 bgcolor="#DFFFDF">
         <tr height=0>
         <tr height=1 bgcolor=50b4cf><td colspan=4 width=900></td></tr>
 		<tr height=2 bgcolor=80a0d7><td colspan=4 width=900></td></tr>
@@ -114,7 +114,7 @@
 
 		<tr>
 		<td>
-		<table border=0>
+		<table border=0 bgcolor="#DFDFFF">
         <tr height=0>
         <tr height=1 bgcolor=50b4cf><td colspan=4 width=900></td></tr>
 		<tr height=2 bgcolor=80a0d7><td colspan=4 width=900></td></tr>
