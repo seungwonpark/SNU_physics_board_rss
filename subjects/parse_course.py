@@ -58,7 +58,14 @@ subject_list = [
 	'acmp'
 ]
 
+course_materials = []
+homework = []
 
+for s in subject_list:
+	course_materials.append(s+'.c')
+	homework.append(s+'.h')
+
+subject_list = subject_list + course_materials + homework
 
 for s in subject_list:
 	subject = '2017_' + s
@@ -98,4 +105,4 @@ for s in subject_list:
 
 
 	atomfeed = fg.atom_str(pretty=True)
-	fg.atom_file(subject + '.xml')
+	fg.atom_file(subject.replace('.c','_c').replace('.h','_h') + '.xml')
