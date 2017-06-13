@@ -55,7 +55,9 @@ subject_list = [
 	'atap1',
 	'atcmp1',
 	'atfp',
-	'acmp'
+	'acmp',
+	'sphy1',
+	'sphy2'
 ]
 
 course_materials = []
