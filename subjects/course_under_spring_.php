@@ -22,7 +22,17 @@
 
 <!--1-->
 		<tr><td>
+		<td align=center width=225>
+        <img src=img/Ugrad-summer.png border=0>
+        </td>
+        <td align=center width=225>
+        <a href=2017_sphy1.xml><b>(계절)물리학1</b> (Physics 1)</a>
+        </td>
+        <td align=center width=225>
+        <a href=2017_sphy2.xml><b>(계절)물리학2</b> (Physics 2)</a>
+        </td>
 		<table cellpadding=2 cellspacing=1 bgcolor="#FFDFDF">
+		<tr height=1 bgcolor=73b94b><td colspan=4></td></tr>
                 <tr height=160>
                 <td align=left width=130><img src=img/1year.png></td>
                 <td align=center width=225>
@@ -123,7 +133,17 @@
 
 <!--1-->
 		<tr><td>
+		<td align=center width=225>
+        <img src=img/Ugrad-summer.png border=0>
+        </td>
+        <td align=center width=225>
+        <a href=2017_sphy1_c.xml><b>(계절)물리학1</b> (Physics 1)</a>
+        </td>
+        <td align=center width=225>
+        <a href=2017_sphy2_c.xml><b>(계절)물리학2</b> (Physics 2)</a>
+        </td>
 		<table cellpadding=2 cellspacing=1 bgcolor="#DFFFDF">
+		<tr height=1 bgcolor=73b94b><td colspan=4></td></tr>
                 <tr height=160>
                 <td align=left width=130><img src=img/1year.png></td>
                 <td align=center width=225>
@@ -224,7 +244,17 @@
 <!--1-->
 
 		<tr><td>
+		<td align=center width=225>
+        <img src=img/Ugrad-summer.png border=0>
+        </td>
+        <td align=center width=225>
+        <a href=2017_sphy1_h.xml><b>(계절)물리학1</b> (Physics 1)</a>
+        </td>
+        <td align=center width=225>
+        <a href=2017_sphy2_h.xml><b>(계절)물리학2</b> (Physics 2)</a>
+        </td>
 		<table cellpadding=2 cellspacing=1 bgcolor="#DFDFFF">
+		<tr height=1 bgcolor=73b94b><td colspan=4></td></tr>
                 <tr height=160>
                 <td align=left width=130><img src=img/1year.png></td>
                 <td align=center width=225>
