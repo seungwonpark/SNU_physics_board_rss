@@ -6,3 +6,7 @@ srl_notices.txt
 srl_general.txt
 notices.xml
 general.xml
+
+# log
+log.txt
+command.err
