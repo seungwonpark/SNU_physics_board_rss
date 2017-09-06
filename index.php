@@ -11,8 +11,8 @@
 
 <h2> 서울대 물리학과 게시판 RSS(베타) </h2>
 <h2> SNU Physics Board RSS(Beta) </h2>
-<h2> 텔레그램 봇 <a href="http://t.me/ShaynmanBot">샤인만</a>을 제작한 관계로, 곧 서비스가 종료됩니다. </h2>
-<h2> Since a new Telegram bot, <a href="http://t.me/ShaynmanBot">Shaynman</a>, has been developed, this service will be teminated shortly. </h2>
+<h2> <s>텔레그램 봇 <a href="http://t.me/ShaynmanBot">샤인만</a>을 제작한 관계로, 곧 서비스가 종료됩니다.</s> </h2>
+<h2> <s>Since a new Telegram bot, <a href="http://t.me/ShaynmanBot">Shaynman</a>, has been developed, this service will be teminated shortly.</s> </h2>
 
 <img src="https://circleci.com/gh/seungwonpark/SNU_physics_board_rss.svg?style=shield" alt="CircleCI build status">
 
