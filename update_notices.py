@@ -5,8 +5,8 @@ from post_parser import post_title, post_author, post_time, post_files_num
 from misc import is_number
 
 # info
-baseurl = 'http://physics.snu.ac.kr/xe/underbbs/'
-url ='http://physics.snu.ac.kr/xe/index.php?mid=underbbs&category=371' # notices only
+baseurl = 'http://phya.snu.ac.kr/xe/underbbs/'
+url ='http://phya.snu.ac.kr/xe/index.php?mid=underbbs&category=371' # notices only
 
 
 f = open('srl_notices.txt','r')

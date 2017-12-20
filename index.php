@@ -19,12 +19,12 @@
 <h3>
 학사 게시판(Announcement) : <a href="notices.xml" target="_blank">공지(Notices)</a> / 
 <a href="general.xml" target="_blank">일반(General)</a> -- 
-<small> <a href="http://physics.snu.ac.kr/xe/underbbs" target="_blank">원문(Source)</a> </small>
+<small> <a href="http://phya.snu.ac.kr/xe/underbbs" target="_blank">원문(Source)</a> </small>
 <br>
 
 강의 게시판(Course Board) : <a href="subjects/course_under_spring_.php">학부(Undergrad.)</a> / 
 <a href="subjects/course_grad_spring_.php">석박사과정(Grad.)</a> -- 
-<small> <a href="http://physics.snu.ac.kr/page3/index.php" target="_blank">원문(Source)</a> </small>
+<small> <a href="http://phya.snu.ac.kr/page3/index.php" target="_blank">원문(Source)</a> </small>
 <br>
 </h3>
 

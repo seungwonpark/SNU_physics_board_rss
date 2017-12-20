@@ -3,7 +3,7 @@ import urllib.request
 from feedgen.feed import FeedGenerator
 #from bs4 import BeautifulSoup
 
-baseurl = 'http://physics.snu.ac.kr/php/subject_list/Notice/list.php?id='
+baseurl = 'http://phya.snu.ac.kr/php/subject_list/Notice/list.php?id='
 subject_list = [
 	# 'qphy1',
 	# 'gp1_001',
@@ -137,7 +137,7 @@ for s in subject_list:
 		title = notices[i].split('&key=">')[1].split('</a>')[0].replace('\n','')
 		author = notices[i].split('<td align="center">')[1].split('</td>')[0]
 		date = notices[i].split('<td align="center">')[2].split('</td>')[0]
-		post_url = 'http://physics.snu.ac.kr/php/subject_list/Notice/' + notices[i].split('">')[0]
+		post_url = 'http://phya.snu.ac.kr/php/subject_list/Notice/' + notices[i].split('">')[0]
 
 		fe = fg.add_entry()
 		fe.id(post_url)
