@@ -109,7 +109,7 @@
 		<a href=2018_ibp.xml><b>생물계 물리입문</b> <br>(Introductory biological physics)</a></p>
 		<a href=2018_is1.xml><b>물리연구 1</b><br>(Independent Study 1)</a>
 		</td>
-                <td align=center width=220><a href=2018_rst><b>상대론과 시공간</b> <br>(Relativity and Space time)</a></p>
+                <td align=center width=220><a href=2018_rst.xml><b>상대론과 시공간</b> <br>(Relativity and Space time)</a></p>
 		<A href=2018_ps.xml><b>고체의 성질</b><br>(Properties of Solids)</a>
 		</td>
                 <td align=center width=220>
@@ -220,7 +220,7 @@
 		<a href=2018_ibp_c.xml><b>생물계 물리입문</b> <br>(Introductory biological physics)</a></p>
 		<a href=2018_is1_c.xml><b>물리연구 1</b><br>(Independent Study 1)</a>
 		</td>
-                <td align=center width=220><a href=2018_rst><b>상대론과 시공간</b> <br>(Relativity and Space time)</a></p>
+                <td align=center width=220><a href=2018_rst.xml><b>상대론과 시공간</b> <br>(Relativity and Space time)</a></p>
 		<A href=2018_ps_c.xml><b>고체의 성질</b><br>(Properties of Solids)</a>
 		</td>
                 <td align=center width=220>
@@ -331,7 +331,7 @@
 		<a href=2018_ibp_h.xml><b>생물계 물리입문</b> <br>(Introductory biological physics)</a></p>
 		<a href=2018_is1_h.xml><b>물리연구 1</b><br>(Independent Study 1)</a>
 		</td>
-                <td align=center width=220><a href=2018_rst><b>상대론과 시공간</b> <br>(Relativity and Space time)</a></p>
+                <td align=center width=220><a href=2018_rst.xml><b>상대론과 시공간</b> <br>(Relativity and Space time)</a></p>
 		<A href=2018_ps_h.xml><b>고체의 성질</b><br>(Properties of Solids)</a>
 		</td>
                 <td align=center width=220>
